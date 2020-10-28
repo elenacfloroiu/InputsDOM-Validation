@@ -1,0 +1,106 @@
+h3{
+    text-align: center;
+}
+
+.confirmationBanner{
+    display: none;
+}
+
+.confirmationBanner.visible {
+    display: block;
+    width: 797px;
+    height: 35px;
+    border: 2px solid #d1e0b7;
+    background-color: #def0d9;
+    color: #517b47;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 6px;
+  }
+
+.checkLogo{
+    width: 30px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.closeBtn{
+    border: none;
+    background-color:#def0d9 ;
+    color:#428a43;
+    margin-left: auto;
+    font-size: large;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#hiddenBanner{
+    margin-left: 45px;
+    margin-top: 11px;
+} 
+
+.contactUS{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 720px;
+    height: 375px;
+    text-align: left;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 400px;
+}
+
+textarea{
+    width: 360px;
+    height: 140px;
+    border: 2px solid black;
+}
+
+input[type='text'], textarea, p, button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type='text']{
+    width: 360px;
+    height: 20px;
+    border-radius: 1px;
+}
+
+.radio { 
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+img{
+    margin-top:-405px;
+    margin-right: -30px;
+    width: 370px;
+    height: 400px;
+    border-radius: 2px;
+    float: right;
+}
+
+#submitBtn{
+    float:left;
+    margin-left: 278px;
+    border-radius: 2px;
+    background-color: #3d9047;
+    border: none;
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    height: 28px;
+}
+
+
+
+

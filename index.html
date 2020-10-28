@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Contact us</h3>
+    <div class="confirmationBanner" id= 'idBanner' >
+        <img src="check.png" alt="Check logo" class="checkLogo">
+        <p id = "hiddenBanner"> Thank you for contacting us, <span id='firstName'></span></p>
+        <button class="closeBtn" type="close">x</button>
+    </div>
+    <br>
+    <div class = 'contactUS'>
+        <div class='details'>
+            <input type='text' id='idFirstName' placeholder="First name.." >
+            <input type='text' id='idLastName' placeholder="Last name..">
+        </div>
+        <p id='gender'>Please select your gender:</p>
+        <section class="radio">
+            <div class="radioDiv">
+                <input type="radio" id='idMale' name="gender">
+                <label for="male">Male</label>
+            </div>
+            <div class="radioDiv">
+                <input type="radio" id="idFemale" name = "gender">
+                <label for='female'>Female</label>
+            </div>
+        </section>
+        <div>
+            <textarea class="message" id="idMessage" placeholder="Message.."></textarea>
+        </div>  
+        <div id='btn'>
+            <button id="submitBtn" type="submit">Submit</button>
+        </div>
+        <div class="img">
+            <img src="contactUs.png" alt='Contact us Picture'>
+        </div>                      
+    </div>
+    
+    <script src='main.js'></script>
+</body>
+</html>
